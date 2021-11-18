@@ -1,6 +1,13 @@
 # Blockchain Key Manager
 You can store EOA to filesystem and load it with this library.
 
+## Installation
+```shell
+yarn add blockchain-key-manager
+npm install blockchain-key-manager
+
+```
+
 ## File Example
 You must use `$HOME/.blockchain/eoa`.
 
