@@ -1,0 +1,16 @@
+{
+  "name": "blockchain-key-manager",
+  "version": "1.0.4",
+  "description": "It manages blockchain EOA using local filesystem",
+  "main": "index.js",
+  "repository": "https://github.com/luaneyed/blockchain-key-manager.git",
+  "author": "Sangguk Lee <sangguk258@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "^4.5.2"
+  }
+}
