@@ -28,7 +28,7 @@ const getEoaList = () => {
   const lines = runCatching(
     () => fs.readFileSync(path.join(os.homedir(), '.blockchain/eoa')).toString(),
     '',
-  ).split('\n');
+  ).split(/\r\n|\r|\n/);
 
   const result: EOA[] = [];
   let state = State.FindingAlias;
